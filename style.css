@@ -1,0 +1,92 @@
+
+* {
+    font-size: 25px;
+}
+    
+    body {
+    background-image: url("bulb4.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(249, 216, 156);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: 	rgb(251, 151, 12);
+  }
+
+h1 {
+    text-align: center;
+    font-size: 12em;
+    margin-top: 90px;
+}
+
+.nav-link {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: rgb(35, 31, 31);
+}
+
+.main-text {
+    width: 50%;
+    margin: auto;
+    font-size: 50px;
+}
+#About-us {
+    width: 50%;
+    margin: auto;
+}
+
+.splitter {
+    height: 500px;
+}
+
+.splitter-two {
+    height: 200px;
+}
+
+.splitter-three {
+    height: 50px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=text] {
+  width: 250px;
+  border-bottom: 5px solid rgb(251, 151, 12);
+}
+
+#fname {
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 0%;
+  }
+
+#lname {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 100%;
+  }
+
+footer {
+    height: 50px;
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: 	rgb(14, 12, 12);
+    padding-top: 5px;
+}
+
+.footer-text {
+    font-size: 15px;
+}
