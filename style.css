@@ -11,6 +11,7 @@
     color: rgb(249, 216, 156);
 }
 
+
 header {
     position: fixed;
     top: 0;
@@ -19,9 +20,10 @@ header {
     background-color: 	rgb(251, 151, 12);
   }
 
+
 h1 {
     text-align: center;
-    font-size: 12em;
+    font-size: 8em;
     margin-top: 90px;
 }
 
@@ -34,6 +36,7 @@ h1 {
 
 a {
     color: rgb(35, 31, 31);
+    cursor: pointer;
 }
 
 .main-text {
@@ -48,6 +51,35 @@ a {
 
 .splitter {
     height: 500px;
+}
+
+.booyon {
+    border-radius: 10%;
+    margin-left: 0px;
+    Margin-top: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+/* booyon image  */
+figure {
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: -50px;
+    width: 100%;
+}
+
+.booyon-container {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.services {
+    padding-top: 20px;
+    margin-left: 100px;
 }
 
 .splitter-two {
